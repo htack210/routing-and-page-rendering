@@ -45,7 +45,7 @@ ul {
   text-decoration: none;
 }
 
-#main-header ul {
+#main- ul {
   display: flex;
   gap: 2rem;
   font-weight: bold;
@@ -60,6 +60,25 @@ ul {
 
 #main-header ul a:hover,
 #main-header ul a.active {
+  background-color: #bcbcb7;
+  color: #181817;
+}
+
+#main- nav {
+  display: flex;
+  gap: 2rem;
+  font-weight: bold;
+}
+
+#main-header nav a {
+  text-decoration: none;
+  color: #e5e5e1;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+#main-header nav a:hover,
+#main-header nav a.active {
   background-color: #bcbcb7;
   color: #181817;
 }
